@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
-public class GreetiongController {
+public class GreetiingController {
 
     private static final String template = "Hello, %s";
 
