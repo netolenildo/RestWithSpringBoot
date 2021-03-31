@@ -4,7 +4,7 @@ import br.com.erudio.exception.UnsupportedMathOperationException;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class MathController {
+public class PersonController {
 
     @RequestMapping(value = "/sum/{x}/{y}", method = RequestMethod.GET)
     public Double sum(@PathVariable(value="x") String x, @PathVariable(value = "y") String y) {
