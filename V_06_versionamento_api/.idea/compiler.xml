@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="V_05_implementando_VO" />
+        <module name="V_04_setup_database" />
+        <module name="V_06_versionamento_api" />
+        <module name="V_01" />
+        <module name="V_03_metodos_http" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="V_01" options="-parameters" />
+      <module name="V_03_metodos_http" options="-parameters" />
+      <module name="V_04_setup_database" options="-parameters" />
+      <module name="V_05_implementando_VO" options="-parameters" />
+      <module name="V_06_versionamento_api" options="-parameters" />
+    </option>
+  </component>
+</project>
